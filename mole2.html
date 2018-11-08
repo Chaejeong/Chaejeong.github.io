@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+
+<head>
+
+	<style>
+		td.mole_cell { width: 230px; height: 230px; }
+		img { width: 220px; height: 200px; }
+	</style>
+
+
+	<script src = "https://code.jquery.com/jquery-3.3.1.js"></script>
+
+</script>
+
+
+	<script>
+
+		function hide(num) {
+
+				$("#mole" + num).slideToggle()
+	
+			}
+
+	</script>
+
+
+</head>
+
+
+<body>
+	<table border=1>
+		<tr>
+			<td class="mole_cell"><img id="mole1" src="mole.png"></td>
+			<td class="mole_cell"><img id="mole2" src="mole.png"></td>
+			<td class="mole_cell"><img id="mole3" src="mole.png"></td>
+		</tr>
+		<tr>
+			<td class="mole_cell"><img id="mole4" src="mole.png"></td>
+			<td class="mole_cell"><img id="mole5" src="mole.png"></td>
+			<td class="mole_cell"><img id="mole6" src="mole.png"></td>
+		</tr>
+		<tr>
+			<td class="mole_cell"><img id="mole7" src="mole.png"></td>
+			<td class="mole_cell"><img id="mole8" src="mole.png"></td>
+			<td class="mole_cell"><img id="mole9" src="mole.png"></td>
+		</tr>
+	</table>
+
+	<table border=1>
+		<tr>
+			<td><button onclick="hide(1)">1</button></td>
+			<td><button onclick="hide(2)">2</button></td>
+			<td><button onclick="hide(3)">3</button></td>
+		</tr>
+		<tr>
+			<td><button onclick="hide(4)">4</button></td>
+			<td><button onclick="hide(5)">5</button></td>
+			<td><button onclick="hide(6)">6</button></td>
+		</tr>
+		<tr>
+			<td><button onclick="hide(7)">7</button></td>
+			<td><button onclick="hide(8)">8</button></td>
+			<td><button onclick="hide(9)">9</button></td>
+		</tr>
+	</table>
+
+</body>
+
+</html>
