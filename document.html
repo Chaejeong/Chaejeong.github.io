@@ -1,0 +1,24 @@
+﻿<html>
+ <head>
+  <title> new document </title>
+
+<script>
+var ary = new Array();
+var i = 0;
+ary[i++] = '행복한 마음';
+ary[i++] = '굶주린 배';
+ary[i++] = '조화 식물';
+ary[i++] = '샴푸린스';
+ary[i++] = '테이블보';
+ary[i++] = '기쁜 마음';
+ary[i++] = '텅 빈 위장';
+ary[i++] = '쿠션';
+
+function SetValue()
+{
+ document.getElementById('NM').innerHTML =ary[parseInt(Math.random()*ary.length)];
+}
+</script>
+ </head>
+ <body onload='javascript:SetValue();'>
+<span id='NM'></span>
