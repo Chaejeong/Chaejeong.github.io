@@ -1,0 +1,28 @@
+﻿<html>
+ <head>
+  <title> 랜덤 준비물! </title>
+
+<script>
+var ary = new Array();
+var i = 0;
+ary[i++] = '기쁜 마음';
+ary[i++] = '굶주린 배';
+ary[i++] = '인테리어 소품';
+ary[i++] = '텅 빈 위장';
+ary[i++] = '쿠션';
+ary[i++] = '치킨';
+ary[i++] = '햇반';
+
+function SetValue()
+{
+
+ document.getElementById('NM').innerHTML =ary[parseInt(Math.random()*ary.length)];
+}
+
+
+
+</script>
+ </head>
+<body> <h1>
+<body onload='javascript:SetValue();'>
+<span id='NM'></span></h1>
