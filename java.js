@@ -1,7 +1,7 @@
-$(document).ready(function(){
+ï»¿$(document).ready(function(){
     $("button").click(function(){
         $.get("profile.json", function(data, status){
-$("#demo").html("<b>ÀÌ¸§: </b>" + data.name + "<br><b>»ç´Â °÷: </b>" + data.home);
+$("#demo").html("<b>ì´ë¦„: </b>" + data.name + "<br><b>ì‚¬ëŠ” ê³³: </b>" + data.home);
         });
     });
 });
