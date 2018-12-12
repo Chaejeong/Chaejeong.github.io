@@ -4,7 +4,7 @@ function callName()
 {
 	var erum = document.getElementById("firstName");
 	var seong = document.getElementById("lastName");
-	var fullName = erum.value + "님, 초대되셨습니다! 환영합니다.";
+	var fullName = erum.value + "님, 초대되었어요. 환영합니다!";
 
 	alert(fullName);
 }
